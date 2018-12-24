@@ -1,0 +1,13 @@
+﻿language: node_js
+node_js:
+  - "stable"
+dist: trusty
+sudo: required
+branches:
+  only:
+  - master
+before_script:
+  - npm install -g @angular/cli
+script:
+- ng lint
+- ng build --prod --base-href https://surajstranger11.github.io/Angular/CourseProject/

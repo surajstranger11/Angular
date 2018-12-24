@@ -9,7 +9,7 @@ import { Recipe } from '../recipes.model';
 export class RecipeListComponent implements OnInit {
  recipes: Recipe[]= [
    new Recipe('Chilli Chicken Recipe','Home made chilli Chicken',
-   'https://images.pexels.com/photos/247685/pexels-photo-247685.png?cs=srgb&dl=assorted-diet-edible-247685.jpg&fm=jpg'),
+   'https://c1.staticflickr.com/1/144/319252903_bc92dbc703_b.jpg'),
    new Recipe('Sweet Pulao','Bengali style Sweet Pulao',
    'https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?cs=srgb&dl=burger-chips-dinner-70497.jpg&fm=jpg')
  ];
